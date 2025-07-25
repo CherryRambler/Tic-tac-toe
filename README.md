@@ -12,6 +12,12 @@ Responsive grid layout
 
 Restart game functionality
 
+## 🌐 Live Preview
+
+You can play the game instantly without downloading by visiting:
+
+[Live Demo on GitHub Pages](https://cherryrambler.github.io/Tic-tac-toe/)
+
 📁 Project Structure
 bash
 Copy
