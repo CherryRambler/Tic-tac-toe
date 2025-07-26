@@ -1,22 +1,29 @@
-🎮 Tic-Tac-Toe Game
-A simple yet interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript. Playable in your browser with a clean interface and real-time win/draw detection.
+# 🎮 Tic-Tac-Toe Game
 
-✨ Features
-Two-player game (X and O)
+A simple yet interactive Tic-Tac-Toe game built using **HTML**, **CSS**, and **JavaScript**. Playable in your browser with a clean interface and real-time win/draw detection.
 
-Hover effect to show whose turn it is
+---
 
-Win and draw detection with end-game messages
+## ✨ Features
 
-Responsive grid layout
+- Two-player game (X and O)
+- Hover effect to show whose turn it is
+- Win and draw detection with end-game messages
+- Responsive grid layout
+- Restart game functionality
 
-Restart game functionality
+---
 
 ## 🌐 Live Preview
 
 You can play the game instantly without downloading by visiting:
 
 [Live Demo on GitHub Pages](https://cherryrambler.github.io/Tic-tac-toe/)
+
+---
+
+## 📁 Project Structure
+
 
 📁 Project Structure
 bash
@@ -28,6 +35,9 @@ Edit
 └── script.js       # Game logic and interactivity
 🚀 Getting Started
 To run the game locally:
+
+---
+
 ## New Things I Learned
 
 - How to manipulate the DOM using JavaScript to update the game board dynamically.
@@ -72,20 +82,25 @@ _No build tools or installations required._
 
 ---
 
+## 🖥️ Preview
+
+![Tic-Tac-Toe Screenshot](./screenshot/Screenshot%202025-07-25%20125154.png)
+![Winning Screenshot](./screenshot/Screenshot%202025-07-25%20125206.png)
+
+---
+
 ## 📘 What I Learned
 
 This project helped me learn and apply several new concepts in CSS and JavaScript:
 
 - `::before` and `::after`: Used to draw the "X" and "O" marks dynamically without images or extra HTML.
-- `.cell:first-child`, `.cell:nth-child(3n + 1)`, etc.: CSS selectors that allow precise styling of grid borders based on cell position.
-- `:root` and CSS variables: Used to define reusable values like `--cell-size` and `--mark-size`.
-- **CSS Grid layout**: To create a responsive 3x3 board using `display: grid` and `grid-template-columns`.
-- **Class toggling in JavaScript**: Dynamically adding/removing CSS classes to change UI states (like hover effects or game results).
+- `.cell:first-child`, `.cell:nth-child(3n + 1)`, etc.: CSS selectors for precise grid styling.
+- `:root` and CSS variables: For reusable values like `--cell-size` and `--mark-size`.
+- **CSS Grid layout**: To create a responsive 3x3 board.
+- **Class toggling in JavaScript**: For dynamic UI states (hover effects, game results).
 - **DOM manipulation**: Updating the game board and messages in real time.
 - **Event handling**: Managing user clicks and game restarts.
 - **Structuring code**: For readability and maintainability.
-
-These skills improve both the visual styling and maintainability of modern front-end projects.
 
 ---
 
@@ -98,13 +113,6 @@ These skills improve both the visual styling and maintainability of modern front
   - Hover preview using CSS classes
   - Restart functionality
 - **CSS** creates the visual representation of Xs and Os using pseudo-elements.
-
----
-
-## 🖥️ Preview
-
-![Tic-Tac-Toe Screenshot](./screenshot/Screenshot%202025-07-25%20125154.png)
-![winning screenshot](./screenshot/Screenshot%202025-07-25%20125206.png)
 
 ---
 
@@ -129,61 +137,4 @@ These skills improve both the visual styling and maintainability of modern front
 ## 📜 License
 
 This project is licensed under the MIT License.
-Clone or download this repository.
-
-Open index.html in any web browser.
-
-Play and enjoy!
-
-No build tools or installations required.
-
-📘 What I Learned
-This project helped me learn and apply several new concepts in CSS:
-
-::before and ::after: Used to draw the "X" and "O" marks dynamically without images or extra HTML.
-
-.cell:first-child, .cell:nth-child(3n + 1), etc.: CSS selectors that allow precise styling of grid borders based on cell position.
-
-:root and CSS variables: Used to define reusable values like --cell-size and --mark-size.
-
-CSS Grid layout: To create a responsive 3x3 board using display: grid and grid-template-columns.
-
-Class toggling in JavaScript: Dynamically adding/removing CSS classes to change UI states (like hover effects or game results).
-
-These skills improve both the visual styling and maintainability of modern front-end projects.
-
-🔧 How It Works
-The 3x3 grid is created using div.cell elements.
-
-JavaScript dynamically handles:
-
-Player turns (X and O)
-
-Win condition checking using index combinations
-
-Hover preview using CSS classes
-
-Restart functionality
-
-CSS creates the visual representation of Xs and Os using pseudo-elements.
-
-🖥️ Preview
-(Include a screenshot or screen recording here if possible)
-
-📌 Technologies Used
-HTML5 – for game structure
-
-CSS3 – for layout and effects
-
-JavaScript (Vanilla) – for all game logic
-
-🧠 Concepts Demonstrated
-DOM manipulation
-
-Event handling
-
-CSS Grid layout
-
-Conditional rendering
-
-Responsive UI
+Made with the help of [Build Tic Tac Toe With JavaScript - Tutorial](https://youtu.be/Y-GkMjUZsmM?si=veKdKSPQ5YJPgV-V)
